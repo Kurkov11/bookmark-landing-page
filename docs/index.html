@@ -15,11 +15,11 @@
     .attribution a { color: hsl(228, 45%, 44%); }
   </style>
 </head>
-<body class="font-rubik">
+<body class="font-rubik" id="body">
   <header>
-    <div class="flex justify-between items-center px-generalSidePadding pt-16 pb-20">
+    <div class="flex justify-between items-center px-generalSidePadding pt-12 pb-20">
       <img src="../images/logo-bookmark.svg" alt="bookmark logo">
-      <svg xmlns="http://www.w3.org/2000/svg" width="18" height="15"><path fill="#242A45" fill-rule="evenodd" d="M0 0h18v3H0V0zm0 6h18v3H0V6zm0 6h18v3H0v-3z"/></svg>
+      <button id="mobile-menu-icon"><svg xmlns="http://www.w3.org/2000/svg" width="18" height="15"><path fill="#242A45" fill-rule="evenodd" d="M0 0h18v3H0V0zm0 6h18v3H0V6zm0 6h18v3H0v-3z"/></svg></button>
     </div>
     <div class="relative mb-10">
       <img src="../images/illustration-hero.svg" alt="hero">
@@ -146,7 +146,7 @@
       <input type="submit" value="Contact Us" class="red-button w-full">
     </form>
   </section>
-  <footer class="bg-veryDarkBlue flex flex-col items-center px-generalSidePadding py-10">
+  <footer class="bg-veryDarkBlue flex flex-col items-center px-generalSidePadding py-12">
     <img src="../images/logo-bookmark-footer.svg" alt="bookmark logo">
     <nav class="py-10">
       <ul class="text-transparentWhite uppercase text-center">
@@ -216,14 +216,32 @@
   <!-- Answer 4 -->
   <!-- Integer condimentum ipsum id imperdiet finibus. Vivamus in placerat mi, at euismod dui. Aliquam 
   vitae neque eget nisl gravida pellentesque non ut velit. -->
-
-  
   <footer>
     <p class="attribution">
       Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
       Coded by <a href="#">Your Name Here</a>.
     </p>
   </footer>
+
+   <!--mobile menu-->
+   <nav id="mobile-menu" class="hidden w-full h-screen fixed top-0 bg-transparentVeryDarkBlue py-12 px-generalSidePadding flex-col justify-between items-center">
+    <div class="w-full">
+      <div class="pb-12 flex justify-between w-full">
+        <img src="../images/logo-bookmark-mobile-nav.svg" alt="bookmark logo">
+        <img src="../images/icon-close.svg" alt="close icon" id="mobile-close-icon" class="object-contain">
+      </div>
+      <ul class="text-center text-transparentWhite tracking-widest w-full">
+        <li class="uppercase py-4 horizontal-border">Features</li>
+        <li class="uppercase py-4">Pricing</li>
+        <li class="uppercase py-4 horizontal-border mb-8">Contact</li>
+        <li class="w-full"><a href="#"><div class="uppercase text-white border-white border-2 rounded text-center w-full py-2">Login</div></a></li>
+      </ul>
+    </div>
+    <div class="flex gap-10">
+      <img src="../images/icon-facebook.svg" alt="facebook">
+      <img src="../images/icon-twitter.svg" alt="twitter">
+    </div>
+   </nav>
 
 
   <script src="index.js"></script>

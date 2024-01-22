@@ -7,6 +7,7 @@ module.exports = {
       colors: {
         softBlue: 'hsl(231, 69%, 60%)',
         veryDarkBlue: 'hsl(229, 31%, 21%)',
+        transparentVeryDarkBlue: 'hsla(229, 31%, 21%, 0.90)',
         grayishBlue: 'hsl(229, 8%, 60%)',
         grayishWhite: 'hsl(0, 0%, 97%)',
         softRed: 'hsl(0, 94%, 66%)',
