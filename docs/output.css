@@ -635,6 +635,7 @@ section, header {
 }
 
 .card {
+  position: relative;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -655,6 +656,7 @@ section, header {
 
 .card .dots {
   position: absolute;
+  bottom: 6rem;
 }
 
 .card .browser {
