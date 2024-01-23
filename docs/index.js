@@ -67,11 +67,13 @@ newsletterForm.addEventListener('submit', (e) => {
 
 for(let i = 1; i <= 3; i++){
     document.getElementById(`features-${i}`).onclick = function(){
+        document.getElementById(`features-${i}`).style.color = 'black';
         document.getElementById(`features-tab-${i}`).style.display = 'block'; 
         document.getElementById(`features-text-${i}`).style.display = 'block';
 
         for(let j = 1; j <= 3; j++){
-            if(j != i){
+            if(j != i){ 
+                document.getElementById(`features-${j}`).style.color = 'hsl(229, 8%, 60%)'; //Grayish Blue
                 document.getElementById(`features-tab-${j}`).style.display = 'none';
                 document.getElementById(`features-text-${j}`).style.display = 'none';
             }
