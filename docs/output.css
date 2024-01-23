@@ -688,6 +688,8 @@ section, header {
   --tw-border-opacity: 1;
   border-color: hsl(229 8% 60% / var(--tw-border-opacity));
   padding-bottom: 1rem;
+  text-align: left;
+  line-height: 1.75rem;
 }
 
 .down-border {
