@@ -44,7 +44,9 @@ newsletterForm.addEventListener('submit', (e) => {
     if(newsletterInput.value === ''){
         e.preventDefault();
         newsletterErrorIcon.style.display = 'block';
+        newsletterInput.style.borderWidth = '2px';
     }else{
         newsletterErrorIcon.style.display = 'none';
+        newsletterInput.style.borderWidth = '0';
     }
 });
