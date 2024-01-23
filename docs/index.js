@@ -64,3 +64,17 @@ newsletterForm.addEventListener('submit', (e) => {
         errorMsg.style.display = 'none';
     }
 });
+
+for(let i = 1; i <= 3; i++){
+    document.getElementById(`features-${i}`).onclick = function(){
+        document.getElementById(`features-tab-${i}`).style.display = 'block'; 
+        document.getElementById(`features-text-${i}`).style.display = 'block';
+
+        for(let j = 1; j <= 3; j++){
+            if(j != i){
+                document.getElementById(`features-tab-${j}`).style.display = 'none';
+                document.getElementById(`features-text-${j}`).style.display = 'none';
+            }
+        }
+    }
+}
