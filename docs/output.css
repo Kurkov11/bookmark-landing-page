@@ -653,8 +653,7 @@ section, header {
 }
 
 .card .dots {
-  padding-top: 2rem;
-  padding-bottom: 1.5rem;
+  position: absolute;
 }
 
 .card .browser {
