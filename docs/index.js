@@ -42,12 +42,18 @@ const newsletterErrorIcon = document.getElementById('newsletter-error-icon');
 const errorMsg = document.getElementById('error-msg');
 
 newsletterForm.addEventListener('submit', (e) => {
+
+    let errorOcurred = false;
+
     if(newsletterInput.value === ''){
+        errorOcurred = true;
+    }
+
+    if(errorOcurred){
         e.preventDefault();
         newsletterErrorIcon.style.display = 'block';
         newsletterInput.style.borderWidth = '2px';
         errorMsg.style.display = 'block';
-        
     }else{
         newsletterErrorIcon.style.display = 'none';
         newsletterInput.style.borderWidth = '0';
