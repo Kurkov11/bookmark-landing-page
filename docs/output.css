@@ -714,6 +714,11 @@ section, header {
   box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
 }
 
+.question-text {
+  display: block;
+  text-align: left;
+}
+
 .visible {
   visibility: visible;
 }
