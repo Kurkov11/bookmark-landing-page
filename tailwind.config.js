@@ -14,7 +14,8 @@ module.exports = {
         transparentWhite: 'hsla(0, 0%, 100%, 0.8)'
       },
       inset: {
-        "-20px": "-20px"
+        "-20px": "-20px",
+        "2.8rem": "2.8rem"
       },
       spacing: {
         "60px": "60px"  //To center the red selector-line which has a width of 120px

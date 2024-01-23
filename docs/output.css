@@ -769,28 +769,12 @@ section, header {
   top: 0.875rem;
 }
 
-.top-14 {
-  top: 3.5rem;
+.top-2 {
+  top: 0.5rem;
 }
 
-.top-1 {
-  top: 0.25rem;
-}
-
-.top-10 {
-  top: 2.5rem;
-}
-
-.top-16 {
-  top: 4rem;
-}
-
-.top-12 {
-  top: 3rem;
-}
-
-.top-11 {
-  top: 2.75rem;
+.top-2\.8rem {
+  top: 2.8rem;
 }
 
 .-z-10 {
@@ -844,11 +828,6 @@ section, header {
 
 .w-full {
   width: 100%;
-}
-
-.-translate-x-16 {
-  --tw-translate-x: -4rem;
-  transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
 }
 
 .-translate-x-60px {
