@@ -49,6 +49,10 @@ newsletterForm.addEventListener('submit', (e) => {
         errorOcurred = true;
     }
 
+    if(!newsletterInput.value.match(/^[A-Za-z\._\-0-9]*[@][A-Za-z]*[\.][a-z]{2,4}$/)){
+        errorOcurred = true;
+    }
+
     if(errorOcurred){
         e.preventDefault();
         newsletterErrorIcon.style.display = 'block';
