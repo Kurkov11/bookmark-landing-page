@@ -19,8 +19,9 @@ for(let i = 1; i <= 4; i++){
     const currentArrow = document.getElementById(`arrow-${String(i)}`);
     const currentArrowDown = document.getElementById(`arrow-down-${String(i)}`);
     const currentAnswer = document.getElementById(`answer-${String(i)}`);
-
-    document.getElementById(`question-${String(i)}`).onclick = function(){
+    const currentQuestion = document.getElementById(`question-${String(i)}`);
+    
+    currentQuestion.onclick = function(){
         if(currentArrow.style.display !== 'none'){
             currentArrow.style.display = 'none';
             currentArrowDown.style.display = 'block';
