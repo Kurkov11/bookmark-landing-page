@@ -15,7 +15,9 @@ module.exports = {
       },
       inset: {
         "-20px": "-20px",
-        "2.8rem": "2.8rem"
+        "2.8rem": "2.8rem",
+        "5.8rem": "5.8rem",
+        "8.9rem": "8.9rem"
       },
       spacing: {
         "60px": "60px"  //To center the red selector-line which has a width of 120px
