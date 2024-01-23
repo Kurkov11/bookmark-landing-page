@@ -35,3 +35,13 @@ for(let i = 1; i <= 4; i++){
         }
     }
 }
+
+const newsletterForm = document.getElementById('newsletter');
+
+const newsletterInput = document.getElementById('newsletter-input');
+
+newsletterForm.addEventListener('submit', (e) => {
+    if(newsletterInput.value === ''){
+        e.preventDefault();
+    }
+});
