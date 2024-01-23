@@ -666,6 +666,7 @@ section, header {
 .arrow {
   -o-object-fit: contain;
      object-fit: contain;
+  padding-left: 0.5rem;
 }
 
 .FAQs-option {
@@ -828,10 +829,6 @@ section, header {
 
 .border-2 {
   border-width: 2px;
-}
-
-.border {
-  border-width: 1px;
 }
 
 .border-white {
