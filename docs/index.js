@@ -37,11 +37,14 @@ for(let i = 1; i <= 4; i++){
 }
 
 const newsletterForm = document.getElementById('newsletter');
-
 const newsletterInput = document.getElementById('newsletter-input');
+const newsletterErrorIcon = document.getElementById('newsletter-error-icon');
 
 newsletterForm.addEventListener('submit', (e) => {
     if(newsletterInput.value === ''){
         e.preventDefault();
+        newsletterErrorIcon.style.display = 'block';
+    }else{
+        newsletterErrorIcon.style.display = 'none';
     }
 });
