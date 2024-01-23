@@ -37,7 +37,7 @@
         @apply w-full text-center mt-14;
     }
     .card .dots{
-        @apply absolute bottom-24;
+        @apply absolute bottom-24 w-full;
     }
     .card .browser{
         @apply pb-5

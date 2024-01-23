@@ -657,6 +657,7 @@ section, header {
 .card .dots {
   position: absolute;
   bottom: 6rem;
+  width: 100%;
 }
 
 .card .browser {
