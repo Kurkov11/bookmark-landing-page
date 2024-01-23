@@ -648,6 +648,7 @@ section, header {
 }
 
 .card a {
+  margin-top: 3.5rem;
   width: 100%;
   text-align: center;
 }

@@ -34,7 +34,7 @@
         @apply flex flex-col items-center bg-white shadow-md p-6 rounded-xl;
     }
     .card a{
-        @apply w-full text-center;
+        @apply w-full text-center mt-14;
     }
     .card .dots{
         @apply absolute
