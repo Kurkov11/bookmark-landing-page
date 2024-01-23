@@ -18,14 +18,17 @@ document.querySelector('#mobile-close-icon').onclick = function() {
 for(let i = 1; i <= 4; i++){
     const currentArrow = document.getElementById(`arrow-${String(i)}`);
     const currentArrowDown = document.getElementById(`arrow-down-${String(i)}`);
+    const currentAnswer = document.getElementById(`answer-${String(i)}`);
 
     document.getElementById(`question-${String(i)}`).onclick = function(){
         if(currentArrow.style.display !== 'none'){
             currentArrow.style.display = 'none';
             currentArrowDown.style.display = 'block';
+            currentAnswer.style.display = 'block';
         }else{
             currentArrow.style.display = 'block';
             currentArrowDown.style.display = 'none';
+            currentAnswer.style.display = 'none';
         }
     }
 }
