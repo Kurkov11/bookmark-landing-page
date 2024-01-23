@@ -50,7 +50,7 @@
         @apply py-4 my-4 text-center text-black font-normal flex justify-between;
     }
     .answer{
-        @apply border-solid border-grayishBlue border-b-option-border-width pb-4 text-left leading-7;
+        @apply border-solid border-grayishBlue border-b-option-border-width pb-8 text-left leading-7;
     }
     .down-border{
         @apply border-solid border-grayishBlue border-b-option-border-width;
