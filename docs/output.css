@@ -681,6 +681,14 @@ section, header {
   color: rgb(0 0 0 / var(--tw-text-opacity));
 }
 
+.answer {
+  border-bottom-width: 0.5px;
+  border-style: solid;
+  --tw-border-opacity: 1;
+  border-color: hsl(229 8% 60% / var(--tw-border-opacity));
+  padding-bottom: 1rem;
+}
+
 .down-border {
   border-bottom-width: 0.5px;
   border-style: solid;
