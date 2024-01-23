@@ -46,9 +46,6 @@
     .arrow{
         @apply object-contain
     }
-    .answer{
-        @apply py-4;
-    }
     .FAQs-option{
         @apply py-4 my-4 text-center text-black font-normal flex justify-between;
     }
