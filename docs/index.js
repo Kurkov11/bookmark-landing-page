@@ -78,5 +78,15 @@ for(let i = 1; i <= 3; i++){
                 document.getElementById(`features-text-${j}`).style.display = 'none';
             }
         }
+
+        //Move the orange line
+        const orangeLine = document.getElementById("orange-line");
+        if(i === 1){
+            orangeLine.style.top = "2.8rem";
+        }else if(i === 2){
+            orangeLine.style.top = "5.8rem";
+        }else if(i === 3){
+            orangeLine.style.top = "8.9rem";
+        }
     }
 }
