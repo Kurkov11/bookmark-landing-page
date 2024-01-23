@@ -761,20 +761,20 @@ section, header {
   top: 0px;
 }
 
-.top-3 {
-  top: 0.75rem;
-}
-
-.top-3\.5 {
-  top: 0.875rem;
-}
-
 .top-2 {
   top: 0.5rem;
 }
 
 .top-2\.8rem {
   top: 2.8rem;
+}
+
+.top-3 {
+  top: 0.75rem;
+}
+
+.top-3\.5 {
+  top: 0.875rem;
 }
 
 .-z-10 {
