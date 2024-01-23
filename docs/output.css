@@ -666,9 +666,12 @@ section, header {
 .arrow {
   -o-object-fit: contain;
      object-fit: contain;
+  padding-left: 0.5rem;
 }
 
 .FAQs-option {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
   display: flex;
   justify-content: space-between;
   padding-top: 1rem;
@@ -677,6 +680,16 @@ section, header {
   font-weight: 400;
   --tw-text-opacity: 1;
   color: rgb(0 0 0 / var(--tw-text-opacity));
+}
+
+.answer {
+  border-bottom-width: 0.5px;
+  border-style: solid;
+  --tw-border-opacity: 1;
+  border-color: hsl(229 8% 60% / var(--tw-border-opacity));
+  padding-bottom: 2rem;
+  text-align: left;
+  line-height: 1.75rem;
 }
 
 .down-border {
@@ -701,6 +714,11 @@ section, header {
   --tw-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1);
   --tw-shadow-colored: 0 4px 6px -1px var(--tw-shadow-color), 0 2px 4px -2px var(--tw-shadow-color);
   box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
+}
+
+.question-text {
+  display: block;
+  text-align: left;
 }
 
 .visible {
@@ -766,6 +784,10 @@ section, header {
 
 .mt-10 {
   margin-top: 2.5rem;
+}
+
+.block {
+  display: block;
 }
 
 .flex {

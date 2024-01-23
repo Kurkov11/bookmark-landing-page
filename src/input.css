@@ -44,15 +44,21 @@
     }
     /* FAQs */
     .arrow{
-        @apply object-contain
+        @apply object-contain pl-2
     }
     .FAQs-option{
-        @apply py-4 text-center text-black font-normal flex justify-between;
+        @apply py-4 my-4 text-center text-black font-normal flex justify-between;
+    }
+    .answer{
+        @apply border-solid border-grayishBlue border-b-option-border-width pb-8 text-left leading-7;
     }
     .down-border{
         @apply border-solid border-grayishBlue border-b-option-border-width;
     }
     .red-button{
         @apply bg-softRed text-white px-3.5 py-3.5 rounded-md text-15px font-medium shadow-md;
+    }
+    .question-text{
+        @apply block text-left;
     }
 }
