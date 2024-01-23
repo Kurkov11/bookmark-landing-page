@@ -27,6 +27,9 @@ module.exports = {
       },
       fontSize: {
         '15px': '15px'
+      },
+      letterSpacing: {
+        '0.2em': '0.2em'
       }
     }
   },
