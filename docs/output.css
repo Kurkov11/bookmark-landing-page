@@ -1163,4 +1163,12 @@ section, header {
   .desktop\:pr-generalSidePaddingDesktop {
     padding-right: 10rem;
   }
+
+  .desktop\:pb-6 {
+    padding-bottom: 1.5rem;
+  }
+
+  .desktop\:pb-8 {
+    padding-bottom: 2rem;
+  }
 }
