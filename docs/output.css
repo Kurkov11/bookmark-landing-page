@@ -1085,6 +1085,10 @@ section, header {
 }
 
 @media (min-width: 1300px) {
+  .desktop\:mb-0 {
+    margin-bottom: 0px;
+  }
+
   .desktop\:block {
     display: block;
   }
