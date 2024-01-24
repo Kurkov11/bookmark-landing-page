@@ -817,6 +817,10 @@ section, header {
   display: block;
 }
 
+.inline {
+  display: inline;
+}
+
 .flex {
   display: flex;
 }
@@ -1055,6 +1059,10 @@ section, header {
 }
 
 @media (min-width: 1300px) {
+  .desktop\:block {
+    display: block;
+  }
+
   .desktop\:flex {
     display: flex;
   }
