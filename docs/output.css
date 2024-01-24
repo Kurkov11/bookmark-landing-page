@@ -553,6 +553,14 @@ h1 {
   color: hsl(229 31% 21% / var(--tw-text-opacity));
 }
 
+@media (min-width: 1300px) {
+  h1 {
+    text-align: start;
+    font-size: 3rem;
+    line-height: 1;
+  }
+}
+
 h2 {
   text-align: center;
   font-size: 1.5rem;
@@ -577,6 +585,13 @@ p {
   line-height: 1.5rem;
   --tw-text-opacity: 1;
   color: hsl(229 8% 60% / var(--tw-text-opacity));
+}
+
+@media (min-width: 1300px) {
+  p {
+    text-align: start;
+    font-size: 18px;
+  }
 }
 
 section, header {
@@ -1036,10 +1051,6 @@ section, header {
   text-align: center;
 }
 
-.align-bottom {
-  vertical-align: bottom;
-}
-
 .font-rubik {
   font-family: rubik;
 }
@@ -1130,6 +1141,10 @@ section, header {
   .desktop\:px-generalSidePaddingDesktop {
     padding-left: 10rem;
     padding-right: 10rem;
+  }
+
+  .desktop\:pb-24 {
+    padding-bottom: 6rem;
   }
 
   .desktop\:pl-generalSidePaddingDesktop {

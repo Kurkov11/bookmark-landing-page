@@ -4,7 +4,7 @@
 
 @layer components {
     h1 {
-        @apply text-center text-3xl font-medium leading-10 text-veryDarkBlue;
+        @apply text-center text-3xl font-medium leading-10 text-veryDarkBlue desktop:text-5xl desktop:text-start;
     }
     h2{
         @apply text-center text-2xl font-medium text-veryDarkBlue;
@@ -13,7 +13,7 @@
         @apply text-center text-xl font-medium leading-10 text-veryDarkBlue
     }
     p {
-        @apply text-center text-grayishBlue leading-6 text-15px;
+        @apply text-center text-grayishBlue leading-6 text-15px desktop:text-18px desktop:text-start;
     }
     section, header{
        @apply pb-32

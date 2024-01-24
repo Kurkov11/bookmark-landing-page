@@ -33,7 +33,8 @@ module.exports = {
         'rubik': 'rubik'
       },
       fontSize: {
-        '15px': '15px'
+        '15px': '15px',
+        '18px': '18px'
       },
       letterSpacing: {
         '0.2em': '0.2em'
