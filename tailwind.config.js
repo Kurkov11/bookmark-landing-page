@@ -16,11 +16,13 @@ module.exports = {
       inset: {
         "-20px": "-20px",
         "2.8rem": "2.8rem",
+        "4.2rem": "4.2rem",
         "5.8rem": "5.8rem",
         "8.9rem": "8.9rem"
       },
       spacing: {
-        "60px": "60px"  //To center the red selector-line which has a width of 120px
+        "60px": "60px",  //To center the red selector-line which has a width of 120px
+        "125px": "125px"  //To position the desktop version of red line on the left side
       },
       borderWidth: {
         'option-border-width': '0.5px'
