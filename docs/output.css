@@ -1036,6 +1036,10 @@ section, header {
   text-align: center;
 }
 
+.align-bottom {
+  vertical-align: bottom;
+}
+
 .font-rubik {
   font-family: rubik;
 }
@@ -1117,6 +1121,10 @@ section, header {
 
   .desktop\:flex-row-reverse {
     flex-direction: row-reverse;
+  }
+
+  .desktop\:items-end {
+    align-items: flex-end;
   }
 
   .desktop\:px-generalSidePaddingDesktop {
