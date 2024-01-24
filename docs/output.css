@@ -1146,8 +1146,16 @@ section, header {
     flex-direction: row-reverse;
   }
 
+  .desktop\:flex-col {
+    flex-direction: column;
+  }
+
   .desktop\:items-end {
     align-items: flex-end;
+  }
+
+  .desktop\:items-center {
+    align-items: center;
   }
 
   .desktop\:justify-start {
@@ -1160,6 +1168,10 @@ section, header {
 
   .desktop\:gap-5 {
     gap: 1.25rem;
+  }
+
+  .desktop\:border-t-0 {
+    border-top-width: 0px;
   }
 
   .desktop\:px-generalSidePaddingDesktop {
