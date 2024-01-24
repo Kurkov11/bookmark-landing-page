@@ -591,6 +591,7 @@ p {
   p {
     text-align: start;
     font-size: 18px;
+    line-height: 1.75rem;
   }
 }
 
@@ -1140,14 +1141,6 @@ section, header {
 
   .desktop\:justify-start {
     justify-content: flex-start;
-  }
-
-  .desktop\:gap-2 {
-    gap: 0.5rem;
-  }
-
-  .desktop\:gap-3 {
-    gap: 0.75rem;
   }
 
   .desktop\:gap-5 {

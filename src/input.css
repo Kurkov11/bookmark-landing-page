@@ -13,7 +13,7 @@
         @apply text-center text-xl font-medium leading-10 text-veryDarkBlue
     }
     p {
-        @apply text-center text-grayishBlue leading-6 text-15px desktop:text-18px desktop:text-start;
+        @apply text-center text-grayishBlue leading-6 text-15px desktop:text-18px desktop:text-start desktop:leading-7;
     }
     section, header{
        @apply pb-32
