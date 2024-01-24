@@ -40,6 +40,9 @@ module.exports = {
       },
       screens: {
         'desktop': '1300px'
+      },
+      minWidth: {
+        '50vw': '50vw'
       }
     }
   },

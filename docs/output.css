@@ -1097,6 +1097,10 @@ section, header {
     display: none;
   }
 
+  .desktop\:min-w-50vw {
+    min-width: 50vw;
+  }
+
   .desktop\:scale-125 {
     --tw-scale-x: 1.25;
     --tw-scale-y: 1.25;
