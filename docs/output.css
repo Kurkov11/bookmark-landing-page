@@ -1142,6 +1142,10 @@ section, header {
     display: flex;
   }
 
+  .desktop\:grid {
+    display: grid;
+  }
+
   .desktop\:hidden {
     display: none;
   }
@@ -1162,6 +1166,10 @@ section, header {
     --tw-scale-x: 1.25;
     --tw-scale-y: 1.25;
     transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
+  }
+
+  .desktop\:grid-cols-3 {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
   }
 
   .desktop\:flex-row-reverse {
