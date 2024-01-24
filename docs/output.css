@@ -1102,6 +1102,15 @@ section, header {
   color: rgb(255 255 255 / var(--tw-text-opacity));
 }
 
+@media (min-width: 1300px) {
+  .desktop\:down-border {
+    border-bottom-width: 0.5px;
+    border-style: solid;
+    --tw-border-opacity: 1;
+    border-color: hsl(229 8% 60% / var(--tw-border-opacity));
+  }
+}
+
 .focus\:outline-none:focus {
   outline: 2px solid transparent;
   outline-offset: 2px;
@@ -1179,6 +1188,16 @@ section, header {
     padding-right: 10rem;
   }
 
+  .desktop\:px-20 {
+    padding-left: 5rem;
+    padding-right: 5rem;
+  }
+
+  .desktop\:px-10 {
+    padding-left: 2.5rem;
+    padding-right: 2.5rem;
+  }
+
   .desktop\:pb-24 {
     padding-bottom: 6rem;
   }
@@ -1199,7 +1218,31 @@ section, header {
     padding-right: 10rem;
   }
 
+  .desktop\:pr-5 {
+    padding-right: 1.25rem;
+  }
+
+  .desktop\:pr-10 {
+    padding-right: 2.5rem;
+  }
+
+  .desktop\:pr-20 {
+    padding-right: 5rem;
+  }
+
+  .desktop\:pb-10 {
+    padding-bottom: 2.5rem;
+  }
+
+  .desktop\:pb-5 {
+    padding-bottom: 1.25rem;
+  }
+
   .desktop\:text-center {
     text-align: center;
+  }
+
+  .desktop\:text-18px {
+    font-size: 18px;
   }
 }
