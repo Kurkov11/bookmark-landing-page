@@ -570,6 +570,13 @@ h2 {
   color: hsl(229 31% 21% / var(--tw-text-opacity));
 }
 
+@media (min-width: 1300px) {
+  h2 {
+    font-size: 1.875rem;
+    line-height: 2.25rem;
+  }
+}
+
 h3 {
   text-align: center;
   font-size: 1.25rem;
@@ -1131,12 +1138,6 @@ section, header {
     transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
   }
 
-  .desktop\:scale-150 {
-    --tw-scale-x: 1.5;
-    --tw-scale-y: 1.5;
-    transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
-  }
-
   .desktop\:flex-row-reverse {
     flex-direction: row-reverse;
   }
@@ -1162,19 +1163,19 @@ section, header {
     padding-bottom: 6rem;
   }
 
-  .desktop\:pl-generalSidePaddingDesktop {
-    padding-left: 10rem;
-  }
-
-  .desktop\:pr-generalSidePaddingDesktop {
-    padding-right: 10rem;
-  }
-
   .desktop\:pb-6 {
     padding-bottom: 1.5rem;
   }
 
   .desktop\:pb-8 {
     padding-bottom: 2rem;
+  }
+
+  .desktop\:pl-generalSidePaddingDesktop {
+    padding-left: 10rem;
+  }
+
+  .desktop\:pr-generalSidePaddingDesktop {
+    padding-right: 10rem;
   }
 }
