@@ -15,10 +15,10 @@ module.exports = {
       },
       inset: {
         "-20px": "-20px",
-        "2.8rem": "2.8rem",
+        "2.8rem": "2.8rem", //First option - red line
         "4.2rem": "4.2rem",
-        "5.8rem": "5.8rem",
-        "8.9rem": "8.9rem"
+        "5.8rem": "5.8rem", //Second option - red line
+        "8.9rem": "8.9rem" //Third option - red line
       },
       spacing: {
         "60px": "60px",  //To center the red selector-line which has a width of 120px
