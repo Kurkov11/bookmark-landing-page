@@ -36,6 +36,9 @@ module.exports = {
       },
       letterSpacing: {
         '0.2em': '0.2em'
+      },
+      screens: {
+        'desktop': '1300px'
       }
     }
   },
