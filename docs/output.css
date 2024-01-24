@@ -1205,6 +1205,10 @@ section, header {
     justify-content: flex-start;
   }
 
+  .desktop\:justify-center {
+    justify-content: center;
+  }
+
   .desktop\:gap-5 {
     gap: 1.25rem;
   }
