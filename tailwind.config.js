@@ -26,7 +26,8 @@ module.exports = {
         'option-border-width': '0.5px'
       },
       padding: {
-        'generalSidePadding': '2rem'
+        'generalSidePadding': '2rem',
+        'generalSidePaddingDesktop': '10rem'
       },
       fontFamily: {
         'rubik': 'rubik'
