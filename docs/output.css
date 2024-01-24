@@ -866,6 +866,10 @@ section, header {
   gap: 2.5rem;
 }
 
+.gap-3 {
+  gap: 0.75rem;
+}
+
 .rounded {
   border-radius: 0.25rem;
 }
@@ -966,6 +970,16 @@ section, header {
   padding-bottom: 1.25rem;
 }
 
+.px-10 {
+  padding-left: 2.5rem;
+  padding-right: 2.5rem;
+}
+
+.px-7 {
+  padding-left: 1.75rem;
+  padding-right: 1.75rem;
+}
+
 .pb-10 {
   padding-bottom: 2.5rem;
 }
@@ -1004,6 +1018,18 @@ section, header {
 
 .pt-12 {
   padding-top: 3rem;
+}
+
+.pr-3 {
+  padding-right: 0.75rem;
+}
+
+.pr-10 {
+  padding-right: 2.5rem;
+}
+
+.pr-7 {
+  padding-right: 1.75rem;
 }
 
 .text-center {
@@ -1051,6 +1077,11 @@ section, header {
 .text-white {
   --tw-text-opacity: 1;
   color: rgb(255 255 255 / var(--tw-text-opacity));
+}
+
+.text-grayishBlue {
+  --tw-text-opacity: 1;
+  color: hsl(229 8% 60% / var(--tw-text-opacity));
 }
 
 .focus\:outline-none:focus {
