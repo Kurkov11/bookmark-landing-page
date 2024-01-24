@@ -18,7 +18,10 @@ module.exports = {
         "2.8rem": "2.8rem", //First option - red line
         "4.2rem": "4.2rem",
         "5.8rem": "5.8rem", //Second option - red line
-        "8.9rem": "8.9rem" //Third option - red line
+        "8.9rem": "8.9rem", //Third option - red line
+        "251.21px": "251.21px", //First option - dekstop red line
+        "502.42px": "502.42px", //Second option - desktop red line
+        "753.63px": "753.63px" //Third option - desktop red line
       },
       spacing: {
         "60px": "60px",  //To center the red selector-line which has a width of 120px
