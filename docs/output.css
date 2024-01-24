@@ -1063,14 +1063,6 @@ section, header {
   padding-top: 3rem;
 }
 
-.pr-40 {
-  padding-right: 10rem;
-}
-
-.pr-16 {
-  padding-right: 4rem;
-}
-
 .text-center {
   text-align: center;
 }
@@ -1120,12 +1112,6 @@ section, header {
 .text-white {
   --tw-text-opacity: 1;
   color: rgb(255 255 255 / var(--tw-text-opacity));
-}
-
-.transition-transform {
-  transition-property: transform;
-  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-  transition-duration: 150ms;
 }
 
 @media (min-width: 1300px) {
@@ -1227,12 +1213,20 @@ section, header {
     padding-bottom: 6rem;
   }
 
+  .desktop\:pb-5 {
+    padding-bottom: 1.25rem;
+  }
+
   .desktop\:pb-6 {
     padding-bottom: 1.5rem;
   }
 
   .desktop\:pb-8 {
     padding-bottom: 2rem;
+  }
+
+  .desktop\:pl-20 {
+    padding-left: 5rem;
   }
 
   .desktop\:pl-generalSidePaddingDesktop {
@@ -1243,44 +1237,12 @@ section, header {
     padding-right: 10rem;
   }
 
-  .desktop\:pl-0 {
-    padding-left: 0px;
-  }
-
-  .desktop\:pr-10 {
-    padding-right: 2.5rem;
-  }
-
-  .desktop\:pr-20 {
-    padding-right: 5rem;
-  }
-
-  .desktop\:pl-20 {
-    padding-left: 5rem;
-  }
-
-  .desktop\:pt-20 {
-    padding-top: 5rem;
-  }
-
-  .desktop\:pt-10 {
-    padding-top: 2.5rem;
-  }
-
   .desktop\:pt-16 {
     padding-top: 4rem;
   }
 
-  .desktop\:text-left {
-    text-align: left;
-  }
-
   .desktop\:text-center {
     text-align: center;
-  }
-
-  .desktop\:text-start {
-    text-align: start;
   }
 
   .desktop\:text-18px {
