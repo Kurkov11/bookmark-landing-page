@@ -1097,6 +1097,10 @@ section, header {
     display: none;
   }
 
+  .desktop\:w-full {
+    width: 100%;
+  }
+
   .desktop\:min-w-50vw {
     min-width: 50vw;
   }
