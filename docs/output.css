@@ -1132,6 +1132,10 @@ section, header {
     min-width: 50vw;
   }
 
+  .desktop\:max-w-550px {
+    max-width: 550px;
+  }
+
   .desktop\:scale-125 {
     --tw-scale-x: 1.25;
     --tw-scale-y: 1.25;
@@ -1148,6 +1152,10 @@ section, header {
 
   .desktop\:justify-start {
     justify-content: flex-start;
+  }
+
+  .desktop\:justify-center {
+    justify-content: center;
   }
 
   .desktop\:gap-5 {
@@ -1177,5 +1185,9 @@ section, header {
 
   .desktop\:pr-generalSidePaddingDesktop {
     padding-right: 10rem;
+  }
+
+  .desktop\:text-center {
+    text-align: center;
   }
 }

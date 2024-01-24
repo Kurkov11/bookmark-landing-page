@@ -44,6 +44,9 @@ module.exports = {
       },
       minWidth: {
         '50vw': '50vw'
+      },
+      maxWidth: {
+        '550px': '550px'
       }
     }
   },
