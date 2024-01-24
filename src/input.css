@@ -58,6 +58,9 @@
     .red-button{
         @apply bg-softRed text-white px-3.5 py-3.5 rounded-md text-15px font-medium shadow-md;
     }
+    .red-button-desktop{
+        @apply bg-softRed text-white px-3.5 py-3.5 rounded-md text-15px tracking-widest shadow-md;
+    }
     .question-text{
         @apply block text-left;
     }
