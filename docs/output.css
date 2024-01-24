@@ -1053,3 +1053,13 @@ section, header {
   outline: 2px solid transparent;
   outline-offset: 2px;
 }
+
+@media (min-width: 1300px) {
+  .desktop\:flex {
+    display: flex;
+  }
+
+  .desktop\:hidden {
+    display: none;
+  }
+}
