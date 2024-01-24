@@ -88,5 +88,15 @@ for(let i = 1; i <= 3; i++){
         }else if(i === 3){
             orangeLine.style.top = "8.9rem";
         }
+
+        //Move the desktop orange line
+        const orangeLineDesktop = document.getElementById("orange-line-desktop");
+        if(i === 1){
+            orangeLineDesktop.style.left = "0";
+        }else if(i === 2){
+            orangeLineDesktop.style.left = "251.21px";
+        }else if(i === 3){
+            orangeLineDesktop.style.left = "502.42px";
+        }
     }
 }
