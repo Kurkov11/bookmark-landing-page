@@ -1063,6 +1063,14 @@ section, header {
   padding-top: 3rem;
 }
 
+.pr-40 {
+  padding-right: 10rem;
+}
+
+.pr-16 {
+  padding-right: 4rem;
+}
+
 .text-center {
   text-align: center;
 }
@@ -1245,6 +1253,22 @@ section, header {
 
   .desktop\:pr-20 {
     padding-right: 5rem;
+  }
+
+  .desktop\:pl-20 {
+    padding-left: 5rem;
+  }
+
+  .desktop\:pt-20 {
+    padding-top: 5rem;
+  }
+
+  .desktop\:pt-10 {
+    padding-top: 2.5rem;
+  }
+
+  .desktop\:pt-16 {
+    padding-top: 4rem;
   }
 
   .desktop\:text-left {
