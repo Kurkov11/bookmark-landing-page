@@ -1067,6 +1067,10 @@ section, header {
   text-align: center;
 }
 
+.text-start {
+  text-align: start;
+}
+
 .font-rubik {
   font-family: rubik;
 }
@@ -1231,8 +1235,28 @@ section, header {
     padding-right: 10rem;
   }
 
+  .desktop\:pl-0 {
+    padding-left: 0px;
+  }
+
+  .desktop\:pr-10 {
+    padding-right: 2.5rem;
+  }
+
+  .desktop\:pr-20 {
+    padding-right: 5rem;
+  }
+
+  .desktop\:text-left {
+    text-align: left;
+  }
+
   .desktop\:text-center {
     text-align: center;
+  }
+
+  .desktop\:text-start {
+    text-align: start;
   }
 
   .desktop\:text-18px {
