@@ -1362,6 +1362,10 @@ section, header {
     text-align: center;
   }
 
+  .desktop\:text-start {
+    text-align: start;
+  }
+
   .desktop\:text-18px {
     font-size: 18px;
   }
