@@ -792,10 +792,6 @@ section, header {
   bottom: -2.5rem;
 }
 
-.-bottom-20 {
-  bottom: -5rem;
-}
-
 .bottom-0 {
   bottom: 0px;
 }
@@ -824,6 +820,10 @@ section, header {
   top: 2.8rem;
 }
 
+.top-24 {
+  top: 6rem;
+}
+
 .top-3 {
   top: 0.75rem;
 }
@@ -838,18 +838,6 @@ section, header {
 
 .top-4\.2rem {
   top: 4.2rem;
-}
-
-.top-20 {
-  top: 5rem;
-}
-
-.top-24 {
-  top: 6rem;
-}
-
-.top-28 {
-  top: 7rem;
 }
 
 .-z-10 {
@@ -1047,11 +1035,6 @@ section, header {
   padding-bottom: 1.25rem;
 }
 
-.py-0 {
-  padding-top: 0px;
-  padding-bottom: 0px;
-}
-
 .pb-10 {
   padding-bottom: 2.5rem;
 }
@@ -1098,10 +1081,6 @@ section, header {
 
 .text-center {
   text-align: center;
-}
-
-.text-start {
-  text-align: start;
 }
 
 .font-rubik {
@@ -1188,24 +1167,16 @@ section, header {
     margin-bottom: 0px;
   }
 
+  .desktop\:mr-16 {
+    margin-right: 4rem;
+  }
+
   .desktop\:mt-10 {
     margin-top: 2.5rem;
   }
 
   .desktop\:mt-20 {
     margin-top: 5rem;
-  }
-
-  .desktop\:mr-10 {
-    margin-right: 2.5rem;
-  }
-
-  .desktop\:mr-20 {
-    margin-right: 5rem;
-  }
-
-  .desktop\:mr-16 {
-    margin-right: 4rem;
   }
 
   .desktop\:block {
@@ -1222,19 +1193,6 @@ section, header {
 
   .desktop\:hidden {
     display: none;
-  }
-
-  .desktop\:h-full {
-    height: 100%;
-  }
-
-  .desktop\:h-max {
-    height: -moz-max-content;
-    height: max-content;
-  }
-
-  .desktop\:h-10 {
-    height: 2.5rem;
   }
 
   .desktop\:h-12 {
@@ -1337,21 +1295,6 @@ section, header {
   .desktop\:px-generalSidePaddingDesktop {
     padding-left: 10rem;
     padding-right: 10rem;
-  }
-
-  .desktop\:px-20 {
-    padding-left: 5rem;
-    padding-right: 5rem;
-  }
-
-  .desktop\:px-5 {
-    padding-left: 1.25rem;
-    padding-right: 1.25rem;
-  }
-
-  .desktop\:py-3 {
-    padding-top: 0.75rem;
-    padding-bottom: 0.75rem;
   }
 
   .desktop\:py-0 {
