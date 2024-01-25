@@ -853,11 +853,6 @@ section, header {
   margin-bottom: 2.5rem;
 }
 
-.my-0 {
-  margin-top: 0px;
-  margin-bottom: 0px;
-}
-
 .mb-10 {
   margin-bottom: 2.5rem;
 }
@@ -898,9 +893,8 @@ section, header {
   height: 100vh;
 }
 
-.h-fit {
-  height: -moz-fit-content;
-  height: fit-content;
+.h-full {
+  height: 100%;
 }
 
 .w-full {
@@ -918,10 +912,6 @@ section, header {
 
 .flex-col {
   flex-direction: column;
-}
-
-.items-start {
-  align-items: flex-start;
 }
 
 .items-center {
@@ -1181,17 +1171,8 @@ section, header {
     margin-bottom: 0px;
   }
 
-  .desktop\:my-5 {
-    margin-top: 1.25rem;
-    margin-bottom: 1.25rem;
-  }
-
   .desktop\:mb-0 {
     margin-bottom: 0px;
-  }
-
-  .desktop\:mt-5 {
-    margin-top: 1.25rem;
   }
 
   .desktop\:mt-10 {
@@ -1218,10 +1199,6 @@ section, header {
     display: none;
   }
 
-  .desktop\:w-full {
-    width: 100%;
-  }
-
   .desktop\:w-2\/3 {
     width: 66.666667%;
   }
@@ -1229,6 +1206,10 @@ section, header {
   .desktop\:w-fit {
     width: -moz-fit-content;
     width: fit-content;
+  }
+
+  .desktop\:w-full {
+    width: 100%;
   }
 
   .desktop\:min-w-50vw {
@@ -1273,16 +1254,20 @@ section, header {
     justify-content: flex-start;
   }
 
-  .desktop\:gap-5 {
-    gap: 1.25rem;
-  }
-
   .desktop\:gap-10 {
     gap: 2.5rem;
   }
 
+  .desktop\:gap-5 {
+    gap: 1.25rem;
+  }
+
   .desktop\:border-t-0 {
     border-top-width: 0px;
+  }
+
+  .desktop\:p-0 {
+    padding: 0px;
   }
 
   .desktop\:px-10 {
