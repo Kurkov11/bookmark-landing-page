@@ -25,7 +25,7 @@
         @apply bg-grayishWhite text-veryDarkBlue px-3.5 py-3.5 rounded-md text-15px font-medium shadow-md;
     }
     .feature-option{
-        @apply py-3 text-center text-grayishBlue font-normal;
+        @apply py-3 text-center text-grayishBlue font-normal cursor-pointer;
     }
     .horizontal-border{
         @apply border-solid border-grayishBlue border-y-option-border-width;
@@ -56,10 +56,10 @@
         @apply border-solid border-grayishBlue border-b-option-border-width;
     }
     .red-button{
-        @apply bg-softRed text-white px-3.5 py-3.5 rounded-md text-15px font-medium shadow-md;
+        @apply bg-softRed text-white px-3.5 py-3.5 rounded-md text-15px font-medium shadow-md cursor-pointer;
     }
     .red-button-desktop{
-        @apply bg-softRed text-white px-3.5 py-3.5 rounded-md text-15px tracking-widest shadow-md;
+        @apply bg-softRed text-white px-3.5 py-3.5 rounded-md text-15px tracking-widest shadow-md cursor-pointer;
     }
     .question-text{
         @apply block text-left;
