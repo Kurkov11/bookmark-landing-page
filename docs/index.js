@@ -82,13 +82,21 @@ for(let i = 1; i <= 3; i++){
         //Move the orange line
         const orangeLineParent = document.getElementById("orange-line-parent");
         const orangeLine = document.getElementById("orange-line");
+        const orangeLine2 = document.getElementById("orange-line-2");
+        const orangeLine3 = document.getElementById("orange-line-3");
 
         if(i === 1){
-            orangeLineParent.style.top = "2.8rem";
+            orangeLine.style.transform = "translateY(-4px)"
+            orangeLine2.style.transform = "translateY(0px)"
+            orangeLine3.style.transform = "translateY(0px)"
         }else if(i === 2){
-            orangeLineParent.style.top = "5.85rem";
+            orangeLine2.style.transform = "translateY(-4px)"
+            orangeLine.style.transform = "translateY(0px)"
+            orangeLine3.style.transform = "translateY(0px)"
         }else if(i === 3){
-            orangeLineParent.style.top = "8.9rem";
+            orangeLine3.style.transform = "translateY(-4px)"
+            orangeLine.style.transform = "translateY(0px)"
+            orangeLine2.style.transform = "translateY(0px)"
         }
 
         //Move the desktop orange line

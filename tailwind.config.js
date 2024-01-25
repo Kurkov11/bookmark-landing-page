@@ -17,7 +17,7 @@ module.exports = {
         "-20px": "-20px",
         "2.8rem": "2.8rem", //First option - red line
         "4.2rem": "4.2rem",
-        "5.8rem": "5.8rem", //Second option - red line
+        "5.85rem": "5.85rem", //Second option - red line
         "8.9rem": "8.9rem", //Third option - red line
         "251.21px": "251.21px", //First option - dekstop red line
         "502.42px": "502.42px", //Second option - desktop red line
