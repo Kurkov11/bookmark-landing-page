@@ -1035,6 +1035,11 @@ section, header {
   padding-bottom: 1.25rem;
 }
 
+.py-0 {
+  padding-top: 0px;
+  padding-bottom: 0px;
+}
+
 .pb-10 {
   padding-bottom: 2.5rem;
 }
@@ -1195,6 +1200,23 @@ section, header {
     display: none;
   }
 
+  .desktop\:h-full {
+    height: 100%;
+  }
+
+  .desktop\:h-max {
+    height: -moz-max-content;
+    height: max-content;
+  }
+
+  .desktop\:h-10 {
+    height: 2.5rem;
+  }
+
+  .desktop\:h-12 {
+    height: 3rem;
+  }
+
   .desktop\:w-2\/3 {
     width: 66.666667%;
   }
@@ -1278,6 +1300,26 @@ section, header {
   .desktop\:px-generalSidePaddingDesktop {
     padding-left: 10rem;
     padding-right: 10rem;
+  }
+
+  .desktop\:px-20 {
+    padding-left: 5rem;
+    padding-right: 5rem;
+  }
+
+  .desktop\:px-5 {
+    padding-left: 1.25rem;
+    padding-right: 1.25rem;
+  }
+
+  .desktop\:py-3 {
+    padding-top: 0.75rem;
+    padding-bottom: 0.75rem;
+  }
+
+  .desktop\:py-0 {
+    padding-top: 0px;
+    padding-bottom: 0px;
   }
 
   .desktop\:pb-24 {
