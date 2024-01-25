@@ -1308,6 +1308,11 @@ section, header {
     border-top-width: 0px;
   }
 
+  .desktop\:object-contain {
+    -o-object-fit: contain;
+       object-fit: contain;
+  }
+
   .desktop\:px-10 {
     padding-left: 2.5rem;
     padding-right: 2.5rem;
