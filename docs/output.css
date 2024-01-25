@@ -1196,6 +1196,18 @@ section, header {
     margin-top: 5rem;
   }
 
+  .desktop\:mr-10 {
+    margin-right: 2.5rem;
+  }
+
+  .desktop\:mr-20 {
+    margin-right: 5rem;
+  }
+
+  .desktop\:mr-16 {
+    margin-right: 4rem;
+  }
+
   .desktop\:block {
     display: block;
   }
@@ -1302,6 +1314,10 @@ section, header {
 
   .desktop\:gap-5 {
     gap: 1.25rem;
+  }
+
+  .desktop\:gap-8 {
+    gap: 2rem;
   }
 
   .desktop\:border-t-0 {
