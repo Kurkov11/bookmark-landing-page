@@ -718,6 +718,13 @@ section, header {
   color: rgb(0 0 0 / var(--tw-text-opacity));
 }
 
+@media (min-width: 1000px) {
+  .FAQs-option {
+    font-size: 1.125rem;
+    line-height: 1.75rem;
+  }
+}
+
 .answer {
   border-bottom-width: 0.5px;
   border-style: solid;

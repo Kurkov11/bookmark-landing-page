@@ -47,7 +47,7 @@
         @apply object-contain pl-2
     }
     .FAQs-option{
-        @apply py-4 my-4 text-center text-black font-normal flex justify-between cursor-pointer;
+        @apply py-4 my-4 text-center text-black font-normal flex justify-between cursor-pointer desktop:text-lg;
     }
     .answer{
         @apply border-solid border-grayishBlue border-b-option-border-width pb-8 text-left leading-7;
