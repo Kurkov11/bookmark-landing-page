@@ -1227,6 +1227,10 @@ section, header {
     flex-direction: column;
   }
 
+  .desktop\:items-start {
+    align-items: flex-start;
+  }
+
   .desktop\:items-end {
     align-items: flex-end;
   }
