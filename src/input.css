@@ -46,6 +46,9 @@
     .arrow{
         @apply object-contain transition-all;
     }
+    .path{
+        @apply transition-all;
+    }
     .FAQs-option{
         @apply py-4 my-4 text-center text-black font-normal flex justify-between cursor-pointer desktop:text-lg;
     }

@@ -706,6 +706,12 @@ section, header {
   transition-duration: 150ms;
 }
 
+.path {
+  transition-property: all;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-duration: 150ms;
+}
+
 .FAQs-option {
   margin-top: 1rem;
   margin-bottom: 1rem;

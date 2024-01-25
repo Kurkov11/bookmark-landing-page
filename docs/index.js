@@ -22,6 +22,7 @@ let rotatedArrow4 = false;
 
 for(let i = 1; i <= 4; i++){
     const currentArrow = document.getElementById(`arrow-${String(i)}`);
+    const currentPath = document.getElementById(`path-${String(i)}`);
     const currentAnswer = document.getElementById(`answer-${String(i)}`);
     const currentQuestion = document.getElementById(`question-${String(i)}`);
 
@@ -53,10 +54,12 @@ for(let i = 1; i <= 4; i++){
         }
         if(rotatedArrow1 || rotatedArrow2 || rotatedArrow3 || rotatedArrow4){
             currentArrow.style.transform = "rotate(180deg)";
+            currentPath.style.stroke = "hsl(0, 94%, 66%)";
             currentAnswer.style.display = 'block';
             currentQuestion.style.borderBottomWidth = '0px';
         }else{
             currentArrow.style.transform = "rotate(0deg)";
+            currentPath.style.stroke = "#5267DF";
             currentAnswer.style.display = 'none';
             currentQuestion.style.borderBottomWidth = '0.5px';
         }
