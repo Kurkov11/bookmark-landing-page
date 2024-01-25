@@ -1252,6 +1252,10 @@ section, header {
     grid-template-columns: repeat(3, minmax(0, 1fr));
   }
 
+  .desktop\:flex-row {
+    flex-direction: row;
+  }
+
   .desktop\:flex-row-reverse {
     flex-direction: row-reverse;
   }
