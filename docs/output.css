@@ -708,6 +708,7 @@ section, header {
   margin-top: 1rem;
   margin-bottom: 1rem;
   display: flex;
+  cursor: pointer;
   justify-content: space-between;
   padding-top: 1rem;
   padding-bottom: 1rem;
