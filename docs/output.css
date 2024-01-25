@@ -853,6 +853,11 @@ section, header {
   margin-bottom: 2.5rem;
 }
 
+.my-0 {
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
 .mb-10 {
   margin-bottom: 2.5rem;
 }
@@ -891,6 +896,11 @@ section, header {
 
 .h-screen {
   height: 100vh;
+}
+
+.h-fit {
+  height: -moz-fit-content;
+  height: fit-content;
 }
 
 .w-full {
@@ -1145,8 +1155,30 @@ section, header {
 }
 
 @media (min-width: 1300px) {
+  .desktop\:my-0 {
+    margin-top: 0px;
+    margin-bottom: 0px;
+  }
+
+  .desktop\:my-5 {
+    margin-top: 1.25rem;
+    margin-bottom: 1.25rem;
+  }
+
   .desktop\:mb-0 {
     margin-bottom: 0px;
+  }
+
+  .desktop\:mt-5 {
+    margin-top: 1.25rem;
+  }
+
+  .desktop\:mt-10 {
+    margin-top: 2.5rem;
+  }
+
+  .desktop\:mt-20 {
+    margin-top: 5rem;
   }
 
   .desktop\:block {
@@ -1209,6 +1241,10 @@ section, header {
 
   .desktop\:gap-5 {
     gap: 1.25rem;
+  }
+
+  .desktop\:gap-10 {
+    gap: 2.5rem;
   }
 
   .desktop\:border-t-0 {
