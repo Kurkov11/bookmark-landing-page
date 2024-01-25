@@ -893,10 +893,6 @@ section, header {
   height: 100vh;
 }
 
-.h-full {
-  height: 100%;
-}
-
 .w-full {
   width: 100%;
 }
@@ -1220,6 +1216,10 @@ section, header {
     max-width: 550px;
   }
 
+  .desktop\:max-w-newsletterWidth {
+    max-width: 430px;
+  }
+
   .desktop\:scale-125 {
     --tw-scale-x: 1.25;
     --tw-scale-y: 1.25;
@@ -1268,10 +1268,6 @@ section, header {
 
   .desktop\:border-t-0 {
     border-top-width: 0px;
-  }
-
-  .desktop\:p-0 {
-    padding: 0px;
   }
 
   .desktop\:px-10 {

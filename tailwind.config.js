@@ -53,7 +53,8 @@ module.exports = {
         '50vw': '50vw'
       },
       maxWidth: {
-        '550px': '550px'
+        '550px': '550px',
+        'newsletterWidth': '430px'
       }
     }
   },
