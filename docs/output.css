@@ -1222,6 +1222,15 @@ section, header {
     width: 100%;
   }
 
+  .desktop\:w-2\/3 {
+    width: 66.666667%;
+  }
+
+  .desktop\:w-fit {
+    width: -moz-fit-content;
+    width: fit-content;
+  }
+
   .desktop\:min-w-50vw {
     min-width: 50vw;
   }
