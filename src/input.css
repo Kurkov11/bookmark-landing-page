@@ -31,7 +31,7 @@
         @apply border-solid border-grayishBlue border-y-option-border-width;
     }
     .card{
-        @apply flex flex-col items-center bg-white shadow-md p-6 rounded-xl relative;
+        @apply flex flex-col items-center bg-white shadow-md p-6 rounded-xl relative desktop:w-300px;
     }
     .card a{
         @apply w-full text-center mt-14;

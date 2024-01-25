@@ -673,6 +673,12 @@ section, header {
   box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
 }
 
+@media (min-width: 1300px) {
+  .card {
+    width: 300px;
+  }
+}
+
 .card a {
   margin-top: 3.5rem;
   width: 100%;
@@ -786,6 +792,10 @@ section, header {
   bottom: -2.5rem;
 }
 
+.-bottom-20 {
+  bottom: -5rem;
+}
+
 .bottom-0 {
   bottom: 0px;
 }
@@ -828,10 +838,6 @@ section, header {
 
 .top-4\.2rem {
   top: 4.2rem;
-}
-
-.-bottom-20 {
-  bottom: -5rem;
 }
 
 .-z-10 {
@@ -1041,16 +1047,16 @@ section, header {
   padding-bottom: 5rem;
 }
 
-.pb-3 {
-  padding-bottom: 0.75rem;
-}
-
 .pb-4 {
   padding-bottom: 1rem;
 }
 
 .pb-6 {
   padding-bottom: 1.5rem;
+}
+
+.pb-7 {
+  padding-bottom: 1.75rem;
 }
 
 .pb-8 {
@@ -1067,14 +1073,6 @@ section, header {
 
 .pt-12 {
   padding-top: 3rem;
-}
-
-.pb-5 {
-  padding-bottom: 1.25rem;
-}
-
-.pb-7 {
-  padding-bottom: 1.75rem;
 }
 
 .text-center {
@@ -1203,10 +1201,6 @@ section, header {
 
   .desktop\:justify-start {
     justify-content: flex-start;
-  }
-
-  .desktop\:justify-center {
-    justify-content: center;
   }
 
   .desktop\:gap-5 {
