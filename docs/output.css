@@ -1254,6 +1254,10 @@ section, header {
     justify-content: flex-start;
   }
 
+  .desktop\:justify-between {
+    justify-content: space-between;
+  }
+
   .desktop\:gap-10 {
     gap: 2.5rem;
   }
