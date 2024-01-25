@@ -44,7 +44,7 @@ module.exports = {
         '0.2em': '0.2em'
       },
       screens: {
-        'desktop': '1300px'
+        'desktop': '1000px'
       },
       width: {
         '300px': '300px' //desktop extension cards
