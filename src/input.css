@@ -44,7 +44,7 @@
     }
     /* FAQs */
     .arrow{
-        @apply object-contain pl-2
+        @apply object-contain transition-all;
     }
     .FAQs-option{
         @apply py-4 my-4 text-center text-black font-normal flex justify-between cursor-pointer desktop:text-lg;

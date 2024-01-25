@@ -701,7 +701,9 @@ section, header {
 .arrow {
   -o-object-fit: contain;
      object-fit: contain;
-  padding-left: 0.5rem;
+  transition-property: all;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-duration: 150ms;
 }
 
 .FAQs-option {

@@ -15,21 +15,48 @@ document.querySelector('#mobile-close-icon').onclick = function() {
     document.querySelector('#hamburger-and-logo').style.visibility = 'visible';
 }
 
+let rotatedArrow1 = false;
+let rotatedArrow2 = false;
+let rotatedArrow3 = false;
+let rotatedArrow4 = false;
+
 for(let i = 1; i <= 4; i++){
     const currentArrow = document.getElementById(`arrow-${String(i)}`);
-    const currentArrowDown = document.getElementById(`arrow-down-${String(i)}`);
     const currentAnswer = document.getElementById(`answer-${String(i)}`);
     const currentQuestion = document.getElementById(`question-${String(i)}`);
 
     currentQuestion.onclick = function(){
-        if(currentArrow.style.display !== 'none'){
-            currentArrow.style.display = 'none';
-            currentArrowDown.style.display = 'block';
+        if(i === 1){
+            if(rotatedArrow4 === false){
+                rotatedArrow4 = true;
+            }else{
+                rotatedArrow4 = false;
+            }
+        }else if(i === 2){
+            if(rotatedArrow4 === false){
+                rotatedArrow4 = true;
+            }else{
+                rotatedArrow4 = false;
+            }
+        }else if(i === 3){
+            if(rotatedArrow4 === false){
+                rotatedArrow4 = true;
+            }else{
+                rotatedArrow4 = false;
+            }
+        }else if(i === 4){
+            if(rotatedArrow4 === false){
+                rotatedArrow4 = true;
+            }else{
+                rotatedArrow4 = false;
+            }
+        }
+        if(rotatedArrow1 || rotatedArrow2 || rotatedArrow3 || rotatedArrow4){
+            currentArrow.style.transform = "rotate(180deg)";
             currentAnswer.style.display = 'block';
             currentQuestion.style.borderBottomWidth = '0px';
         }else{
-            currentArrow.style.display = 'block';
-            currentArrowDown.style.display = 'none';
+            currentArrow.style.transform = "rotate(0deg)";
             currentAnswer.style.display = 'none';
             currentQuestion.style.borderBottomWidth = '0.5px';
         }
