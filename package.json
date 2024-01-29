@@ -12,5 +12,8 @@
   "license": "ISC",
   "dependencies": {
     "tailwindcss": "^3.4.1"
+  },
+  "devDependencies": {
+    "axe-core": "^4.8.3"
   }
 }
